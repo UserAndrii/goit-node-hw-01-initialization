@@ -1,17 +1,6 @@
 const contacts = require('./contacts');
-
-// const { program } = require('commander');
-// program
-//   .option('-a, --action, <type>')
-//   .option('-i, --id, <type>')
-//   .option('-n, --name, <type>')
-//   .option('-e, --email, <type>')
-//   .option('-p, --phone, <type>');
-
-// program.parse();
-// const argv = program.opts();
-
 const { Command } = require('commander');
+
 const program = new Command();
 program
   .option('-a, --action <type>', 'choose action')
@@ -59,19 +48,3 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 };
 
 invokeAction(argv);
-// invokeAction({ action: 'list' });
-// invokeAction({ action: 'get', id: 'AeHIrLTr6JkxGE6SN-0R' });
-// invokeAction({
-//   action: 'add',
-//   name: 'Mangust',
-//   email: 'mangust@gmail.com',
-//   phone: '+38 093 123 45 67',
-// });
-// invokeAction({
-//   action: 'update',
-//   id: 'B4fI6kFsF_4kS7W1z1aTo',
-//   name: 'Mangust Marco',
-//   email: 'mangust@gmail.com',
-//   phone: '+38 093 123 45 67',
-// });
-// invokeAction({ action: 'remove', id: 'B4fI6kFsF_4kS7W1z1aTo' });
