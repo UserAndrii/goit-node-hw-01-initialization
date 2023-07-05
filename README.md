@@ -36,4 +36,4 @@
 
 `node index.js --action="remove" --id qdggE76Jtbfd9eWJHrssH`
 
-[результат коду (скріншот) можна побачити тут](https://monosnap.com/file/HMq0pDte8SNIcT3GWHbW6I0rr0Xl0)
+[результат коду (скріншот) можна побачити тут](https://monosnap.com/file/HMq0pDte8SNIcT3GWHbW6I0rr0Xl0h)
